@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	<title>mobileWeb</title>
+	<style type="text/css">
+        
+        @font-face{
+            font-family:font1;
+            src:url('fonts/sweet purple.ttf');
+        }
+       @font-face{
+            font-family:font2;
+           src:url('fonts/Kruti Dev 010 Regular.ttf')
+           
+        }
+        *{
+            text-decoration: none;
+        }
+        *{
+            box-sizing: border-box;
+        }
+		body{
+			margin:0px;
+			padding: 0px 0px 10px 0px;
+           
+            
+		}
+		.heder{
+          
+		    height:100px;
+			width: 100%;
+            margin-left: 35%;
+            
+			          
+		}
+        #hederImg{
+              background-repeat: no-repeat;
+            background-size: contain;
+            height: 100px;
+           float: left;
+            width: 100px;
+        }
+        .menu{
+            border:none;
+            
+            
+           
+        }
+		.menuLink{
+					color: black;
+					display: block;
+					height:20px;
+					width:20%;
+					font-size:4vw;
+					box-sizing: border-box;
+					border: none;
+                    border-left: 1px solid white;
+					border-radius: 2px;
+					padding: 5px;
+                    line-height: 10px;
+					float: left;
+                    font-family: serif;
+                   border-collapse: collapse;
+                   background-color: greenyellow;
+		}
+        
+        .content1, .content2, .content3, .content4{
+            height:200px;
+            width: 80%;
+            background-color: white;
+            border:0.5px solid black;
+           margin:5% 5%;
+            box-shadow: 2px 4px 4px;
+            
+        }
+        .content1{
+            background-image: url(photos/fitter2.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .content2{
+            background-image: url(photos/electrician2.jpg);
+          background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .content3{
+            background-image: url(photos/disellogo.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .content4{
+            background-image: url(photos/copa6.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+              
+            .test{
+           
+            font-family: font1;
+             height: 50px;
+            width: 100%;
+            background-color: greenyellow;
+            border: 1px solid black;
+            border-top: 1px solid black;
+            font-size: 5vw;
+            text-align: center;
+            text-transform: uppercase;
+            padding: 10px;
+            color: black;
+            margin-top: 10px;
+           
+        }
+        .quots{
+            background-image: linear-gradient(-60deg,white,pink);
+            height: 100px;
+            width: 100%;
+            background-color:blueviolet;
+            font-size: 6vw;
+            margin:0px ;
+            padding: 10px;
+            font-family: font1;
+        }
+        .subject1, .subject2,.subject3,.subject4{
+            height:10px;
+            width: 100%;
+            background-color: gray;
+            opacity: 1;
+            font-size: 5vw;
+            border:2px solid black;
+            line-height: 10px;
+            border-left: none;
+            border-right: none;
+            text-align: center;
+            padding: 20px;
+            margin-top:155px;
+            position: relative;
+            font-family: font1;
+             }
+        .contener{
+            height: auto;
+            width: 100%;
+            margin: 5% 5%;
+            background-color: white;
+             box-sizing: border-box;
+            overflow: scroll;
+        }
+        #logoTag{
+            font-family:font2;
+        }
+	</style>
+</head>
+<body>
+<div class="heder"><div><img id="hederImg" src="photos/logo.jpg"></div></div>
+<div class="menu">                                                         <!--create a menu bar with out ul list-->
+	
+    <a class="menuLink" href="#">HOME</a>
+	<a  class="menuLink" href="#">TREADS</a>
+	<a  class="menuLink" href="#">PDF</a>
+	<a  class="menuLink" href="#">NEWS</a>
+	<a  class="menuLink" href="#">ABOUT</a>
+</div>
+    <div class="contener">
+    
+       <a href="contentHtml/content.html"> <div class="content1"><div class="subject1">FITTER</div></div></a>
+            <div class="content2"><div class="subject2">ELECTRICIAN</div></div>
+                <div class="content3"><div class="subject3">DISEL</div></div>
+                    <div class="content4"><div class="subject4">COPA</div></div>
+        
+    </div>
+    <br clear="all">                                                          <!--      clear all float propertis-->
+    
+<a href="#"><div class="test">TEST</div></a>
+   
+
+
+</body>
+</html>
